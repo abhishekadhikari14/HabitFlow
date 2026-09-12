@@ -1,0 +1,6 @@
+{
+  "name": "HabitFlow AI",
+  "description": "Intelligent habit tracker and consistency analytics platform with behavioral pattern detection and AI coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

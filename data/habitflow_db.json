@@ -1,0 +1,210 @@
+{
+  "users": {
+    "demo-user": {
+      "id": "demo-user",
+      "name": "Abhishek",
+      "email": "iamabhishekadhikari20@gmail.com",
+      "onboardingCompleted": true,
+      "preferences": {
+        "theme": "light",
+        "reminderTime": "08:00",
+        "focusAreas": [
+          "Study",
+          "Fitness",
+          "Reading",
+          "Health",
+          "Meditation"
+        ],
+        "primaryObstacles": [
+          "Lack of time",
+          "Low energy",
+          "Distractions"
+        ],
+        "weekStartsOn": "monday",
+        "notificationsEnabled": true
+      }
+    }
+  },
+  "habits": {
+    "demo-user-h1": {
+      "id": "demo-user-h1",
+      "name": "Study DSA & Systems",
+      "description": "Solve 1 LeetCode problem or study distributed systems concept",
+      "category": "Study",
+      "frequency": "daily",
+      "target": 60,
+      "targetUnit": "minutes",
+      "preferredTime": "08:30",
+      "timeOfDay": "morning",
+      "difficulty": "hard",
+      "priority": "high",
+      "startDate": "2026-09-07",
+      "active": true,
+      "color": "#3b82f6",
+      "icon": "BookOpen",
+      "streak": 0,
+      "bestStreak": 0,
+      "userId": "demo-user",
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    },
+    "demo-user-h2": {
+      "id": "demo-user-h2",
+      "name": "Morning Workout",
+      "description": "Cardio, strength training, or mobility sequence",
+      "category": "Fitness",
+      "frequency": "daily",
+      "target": 40,
+      "targetUnit": "minutes",
+      "preferredTime": "07:15",
+      "timeOfDay": "morning",
+      "difficulty": "medium",
+      "priority": "high",
+      "startDate": "2026-09-07",
+      "active": true,
+      "color": "#10b981",
+      "icon": "Activity",
+      "streak": 0,
+      "bestStreak": 0,
+      "userId": "demo-user",
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    },
+    "demo-user-h3": {
+      "id": "demo-user-h3",
+      "name": "Read Non-Fiction",
+      "description": "Read high-signal books before winding down",
+      "category": "Reading",
+      "frequency": "daily",
+      "target": 20,
+      "targetUnit": "pages",
+      "preferredTime": "21:00",
+      "timeOfDay": "evening",
+      "difficulty": "easy",
+      "priority": "medium",
+      "startDate": "2026-09-07",
+      "active": true,
+      "color": "#8b5cf6",
+      "icon": "Bookmark",
+      "streak": 0,
+      "bestStreak": 0,
+      "userId": "demo-user",
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    },
+    "demo-user-h4": {
+      "id": "demo-user-h4",
+      "name": "Mindful Meditation",
+      "description": "Box breathing and awareness stillness",
+      "category": "Meditation",
+      "frequency": "daily",
+      "target": 10,
+      "targetUnit": "minutes",
+      "preferredTime": "07:00",
+      "timeOfDay": "morning",
+      "difficulty": "easy",
+      "priority": "medium",
+      "startDate": "2026-09-07",
+      "active": true,
+      "color": "#06b6d4",
+      "icon": "Smile",
+      "streak": 0,
+      "bestStreak": 0,
+      "userId": "demo-user",
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    },
+    "demo-user-h5": {
+      "id": "demo-user-h5",
+      "name": "Daily Hydration (3L)",
+      "description": "Track daily water intake throughout daytime",
+      "category": "Health",
+      "frequency": "daily",
+      "target": 8,
+      "targetUnit": "glasses",
+      "preferredTime": "12:00",
+      "timeOfDay": "afternoon",
+      "difficulty": "easy",
+      "priority": "low",
+      "startDate": "2026-09-07",
+      "active": true,
+      "color": "#0284c7",
+      "icon": "Droplet",
+      "streak": 0,
+      "bestStreak": 0,
+      "userId": "demo-user",
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    },
+    "demo-user-h6": {
+      "id": "demo-user-h6",
+      "name": "Evening Screen Detox",
+      "description": "No laptops or phone doomscrolling 45 mins before sleep",
+      "category": "Sleep",
+      "frequency": "daily",
+      "target": 45,
+      "targetUnit": "minutes",
+      "preferredTime": "22:15",
+      "timeOfDay": "evening",
+      "difficulty": "medium",
+      "priority": "medium",
+      "startDate": "2026-09-07",
+      "active": true,
+      "color": "#f59e0b",
+      "icon": "Moon",
+      "streak": 0,
+      "bestStreak": 0,
+      "userId": "demo-user",
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    }
+  },
+  "logs": {},
+  "goals": {
+    "demo-user-g1": {
+      "id": "demo-user-g1",
+      "userId": "demo-user",
+      "name": "30-Day LeetCode & DSA Consistency Streak",
+      "habitId": "demo-user-h1",
+      "targetDays": 30,
+      "completedDays": 0,
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-07",
+      "status": "in_progress",
+      "reward": "Purchase mechanical keyboard"
+    },
+    "demo-user-g2": {
+      "id": "demo-user-g2",
+      "userId": "demo-user",
+      "name": "Establish 4-Day Weekly Workout Routine",
+      "habitId": "demo-user-h2",
+      "targetDays": 24,
+      "completedDays": 0,
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-01",
+      "status": "in_progress",
+      "reward": "New running shoes"
+    }
+  },
+  "notifications": {
+    "demo-user-n1": {
+      "id": "demo-user-n1",
+      "userId": "demo-user",
+      "title": "Welcome to HabitFlow AI ✨",
+      "message": "All tracking values are set to default zero. Complete your first habit today to start building your streak and watch your analytics come alive!",
+      "type": "reminder",
+      "read": false,
+      "createdAt": "2026-09-07T16:05:37.655Z"
+    }
+  },
+  "chats": {
+    "demo-user": [
+      {
+        "id": "chat-welcome-clean",
+        "userId": "demo-user",
+        "role": "assistant",
+        "content": "Hello Abhishek! 👋 I'm your **HabitFlow Coach**.\n\nWe have set all tracking values to **default zero** so you can experience building consistency from scratch!\n\n- **Current Streak**: 0 Days\n- **Completion Rate**: 0%\n- **Consistency Score**: 0 / 100\n\nWhen you check off your first habit on the dashboard, your score, streaks, and behavioral telemetry will begin calculating immediately. Which habit would you like to tackle first?",
+        "timestamp": "2026-09-07T16:05:37.655Z",
+        "groundedFacts": [
+          "Clean slate initialized",
+          "Streaks: 0",
+          "Consistency Score: 0/100"
+        ]
+      }
+    ]
+  }
+}
